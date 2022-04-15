@@ -1,0 +1,21 @@
+GET http://localhost:4000/posts
+Authorization: 
+################################
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "username": "Daniel",
+}
+
+################################
+POST http://localhost:5000/token
+Content-Type: application/json
+
+{
+    "refreshToken":
+}
+
+################################
+DELETE http://localhost:5000/logout
+Authorization: 
